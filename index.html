@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main class="px-6">
+      <nav
+        class="flex justify-between items-center border-x-[1.8px] border-b-[1.8px] px-12 py-4 border-[#DEDDDE] text-xs"
+      >
+        <div id="menu" class="flex gap-5">
+          <a>How it works</a>
+          <a>Service</a>
+          <a>Client</a>
+        </div>
+        <div id="logo" class="logo text-lg font-medium">Libertans</div>
+        <div id="lastMenu" class="flex items-center gap-5">
+          <p>FAQ</p>
+          <p
+            id="started"
+            class="border-[1.5px] border-[#BAE700] py-2 px-4 font-medium rounded-3xl"
+          >
+            Get Started <i class="ri-arrow-right-line"></i>
+          </p>
+        </div>
+      </nav>
+      <section class="h-[40vw] border-x-[1.8px] border-[#DEDDDE] relative">
+        <div
+          id="shoes"
+          class="rounded-b-full overflow-hidden w-fit absolute top-10 left-16 -rotate-6"
+        >
+          <img
+            class="object-cover h-60 w-60 rounded-t-xl"
+            src="https://images.unsplash.com/photo-1617182773316-d005fadbfd68?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+        <div
+          id="address"
+          class="absolute top-10 right-12 text-xs text-gray-300 place-items-end"
+        >
+          <p class="bg-[#602FE9] rounded-3xl p-1">35 N Dearborn ST</p>
+          <p class="bg-[#602FE9] rounded-3xl p-1 w-fit">Chicago</p>
+        </div>
+        <div
+          class="flex flex-col items-center bg-blue-300/0 absolute top-20 w-full z-[9]"
+        >
+          <p class="linee text-lg text-gray-400 mb-2 tracking-tight">
+            Crafting Experiences that Inspire:
+          </p>
+          <h1
+            class="linee text-[6vw] font-bold tracking-wide font-['Verdana'] leading-none"
+          >
+            Elevate Your
+          </h1>
+          <h1
+            class="linee text-[6vw] font-bold tracking-wide font-['Verdana'] leading-none"
+          >
+            Brand with Our
+          </h1>
+          <h1
+            class="linee text-[6vw] font-bold tracking-wide font-['Verdana'] leading-none mt-1"
+          >
+            <span
+              class="linee bg-[#BAE700] text-white rounded-3xl inline-block px-2 py-1 transform rotate-3"
+              >Creative</span
+            >
+            Magic
+          </h1>
+        </div>
+        <div
+          id="products"
+          class="rounded-se-full overflow-hidden w-fit absolute top-48 right-24 rotate-6"
+        >
+          <img
+            class="object-cover h-60 w-48 rounded-xl"
+            src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+        <div class="w-fit absolute bottom-10 left-12">
+          <img
+            class="infoNe h-16 w-16 rounded-full object-cover border-2 border-[#B8E600]"
+            src="https://images.unsplash.com/photo-1731484395148-b1d7f2af7d54?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <p class="infoNe w-80 text-xs text-gray-400 mt-6">
+            Amplify brands by crafting unique and compelling brand identities
+            that leave a lasting impact.
+          </p>
+        </div>
+        <div id="scrollDown" class="bottom-10 absolute w-full text-center">
+          Scroll down
+          <i
+            class="ri-arrow-down-line bg-[#602FE9] text-white p-1 rounded-full"
+          ></i>
+        </div>
+      </section>
+
+      <section id="secTwo" class="border-x-[1.8px] border-[#DEDDDE] py-20">
+        <div
+          class="bg-[#111111] w-full rounded-t-3xl rounded-b-3xl p-8 text-white"
+        >
+          <div id="expertise" class="flex justify-between">
+            <h1 class="font-medium text-2xl">Our Expertise</h1>
+            <p class="w-60 text-xs text-gray-400">
+              Transform ideas into reality by combining creativity, strategy and
+              expertise.
+            </p>
+          </div>
+          <hr class="my-6 border-gray-600 border-[1.3px]" />
+
+          <div class="flex justify-around">
+            <div class="expertBox p-4 w-[29vw] bg-[#393839] rounded-3xl">
+              <div class="flex items-center justify-between">
+                <h1 class="text-3xl font-medium text-[#BAE700] leading-6">
+                  Market <br />
+                  research
+                </h1>
+                <p
+                  class="bg-zinc-600 h-10 w-10 rounded-full text-3xl text-center"
+                >
+                  <i class="ri-arrow-right-up-line"></i>
+                </p>
+              </div>
+              <hr class="my-3 border-gray-600 border-[1.3px]" />
+              <div class="text-xs">
+                Lorem ipsum, dolor sit amet consect etur adipisicing elit.
+                Necessitatiuptates
+              </div>
+              <img
+                class="rounded-2xl mt-4"
+                src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </div>
+
+            <div class="expertBox p-4 w-[29vw] bg-[#393839] rounded-3xl">
+              <div class="flex items-center justify-between">
+                <h1 class="text-3xl font-medium text-[#BAE700] leading-6">
+                  Ads <br />
+                  Production
+                </h1>
+                <p
+                  class="bg-zinc-600 h-10 w-10 rounded-full text-3xl text-center"
+                >
+                  <i class="ri-arrow-right-up-line"></i>
+                </p>
+              </div>
+              <hr class="my-3 border-gray-600 border-[1.3px]" />
+              <div class="text-xs">
+                Lorem ipsum, dolor sit amet consect etur adipisicing elit.
+                Necessitatiuptates
+              </div>
+              <img
+                class="rounded-2xl mt-4"
+                src="https://images.unsplash.com/photo-1655401435639-657b905179de?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </div>
+
+            <div class="expertBox p-4 w-[29vw] bg-[#393839] rounded-3xl">
+              <div class="flex items-center justify-between">
+                <h1 class="text-3xl font-medium text-[#BAE700] leading-6">
+                  Branding <br />
+                  strategies
+                </h1>
+                <p
+                  class="bg-zinc-600 h-10 w-10 rounded-full text-3xl text-center"
+                >
+                  <i class="ri-arrow-right-up-line"></i>
+                </p>
+              </div>
+              <hr class="my-3 border-gray-600 border-[1.3px]" />
+              <div class="text-xs">
+                Lorem ipsum, dolor sit amet consect etur adipisicing elit.
+                Necessitatiuptates
+              </div>
+              <img
+                class="rounded-2xl mt-4"
+                src="https://images.unsplash.com/photo-1614620150352-c89bb3dae31c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <hr class="my-12 border-gray-600 border-[1.3px]" />
+
+          <div class="flex justify-between relative">
+            <div id="impactLine">
+              <h1 class="text-6xl font-semibold text-[#BAE700]">WE CREATE</h1>
+              <h1 class="text-6xl font-semibold text-[#BAE700]">IMPACTFUL</h1>
+              <h1 class="text-6xl font-semibold text-[#BAE700]">
+                EXPERIENCES FOR OUR
+              </h1>
+              <h1 class="text-6xl font-semibold text-[#BAE700]">
+                CLIENTS' CUSTOMERS
+              </h1>
+              <h1 class="text-6xl font-semibold text-[#BAE700]">
+                EVERY TIME THEY
+              </h1>
+              <h1 class="text-6xl font-semibold text-[#BAE700]">
+                ENGAGE WITH A
+              </h1>
+              <h1 class="text-6xl font-semibold text-[#BAE700]">BRAND</h1>
+            </div>
+
+            <div id="impactElem" class="absolute top-0 right-0">
+              <img
+
+                class="h-40 object-cover"
+                src="https://assets.coingecko.com/coins/images/38959/large/nigella_coin.png?1719691791"
+                alt=""
+              />
+            </div>
+
+            <div class="sevenline w-96 text-right absolute right-0 bottom-0">
+              <div class="">
+                <h1 class="text-4xl font-bold tracking-widest">
+                  700<span
+                    class="align-super font-bold text-2xl text-purple-600"
+                    >+</span
+                  >
+                </h1>
+                <p class="text-xs text-[#BAE700]">Project Completed</p>
+              </div>
+              <p class="text-xs mt-4">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus accusantium labore rerum eius accusamus eveniet? Ad
+                facere eveniet quo enim omnis odio, nemo unde magni, animi porro
+                laboriosam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sectThree border-x-[1.8px] border-t-[1.8px] border-[#DEDDDE] py-20">
+
+        <div class="pl-12 pb-8">
+          
+        <h3 class="bdrop text-[#6032E7] font-semibold text-xs">RECENT WORK</h3>
+        <h1 class="bdrop text-xl font-semibold w-1/2">
+          Through meticulous planning, seamless execution, and creative
+          problem-solving, we achieved remarkable project success.
+        </h1>
+        </div>
+
+        <div class="flex justify-evenly">
+          <div>
+            <img
+              class="imagedrop h-80 rounded-2xl"
+              src="https://images.unsplash.com/photo-1625247394740-a886ade4674e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+            <h1 class="text-[#6032E7] font-semibold text-lg py-3">
+              The Ordinary
+            </h1>
+            <p class="text-xs text-zinc-400 font-medium w-96">
+              DesignDigital, WebContent, Campaigns Events & Activations
+            </p>
+          </div>
+          <div class="mt-24">
+            <img
+              class="imagedrop h-80 rounded-2xl"
+              src="https://images.unsplash.com/photo-1664241486400-4914a6bb0542?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+            <h1 class="text-[#6032E7] font-semibold text-lg py-3">
+              Google LLC
+            </h1>
+            <p class="text-xs text-zinc-400 font-medium w-96">
+              Brand Strategy, VoiceBranding, DesignDigital, WebContent,
+              Campaigns Events & Activations
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-evenly">
+          <div>
+            <img
+              class="imagedrop h-80 rounded-2xl"
+              src="https://images.unsplash.com/photo-1502096472573-eaac515392c6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+            <h1 class="text-[#6032E7] font-semibold text-lg py-3">Apple Inc</h1>
+            <p class="text-xs text-zinc-400 font-medium w-96">
+              DesignDigital, WebContent, Campaigns Events & Activations, Brand
+              Strategy, VoiceBranding
+            </p>
+          </div>
+
+          <div class="mt-24">
+            <div class="rounded-se-full overflow-hidden">
+              <img
+                class="imagedrop h-80 rounded-2xl object-cover"
+                src="https://images.unsplash.com/photo-1610827936647-9386f82bbeb7?q=80&w=1960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </div>
+
+            <h1 class="text-[#6032E7] font-semibold text-lg py-3">
+              The Coca-cola Company
+            </h1>
+            <p class="text-xs text-zinc-400 font-medium w-96">
+              Brand Strategy, VoiceBranding, DesignDigital, WebContent,
+              Campaigns Events & Activations
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class=" border-x-[1.8px] border-t-[1.8px] border-[#DEDDDE] pt-20">
+        <div
+          class="bg-[#111111] w-full rounded-t-3xl rounded-b-3xl p-8 pt-16 text-white"
+        >
+          <div class="flex items-center flex-col">
+            <h2 class="dropline text-[#BCE700] font-medium">
+              Start crafting your brand story
+            </h2>
+            <h1 class="dropline text-7xl font-semibold">PARTNER WITH US TO CREATE</h1>
+            <h1 class="dropline text-7xl font-semibold">
+              A
+              <span class="dropline bg-[#BAE700] text-white rounded-3xl inline-block px-2 py-1 transform rotate-3"
+                >COMPELLING</span
+              >
+              NARRATIVE
+            </h1>
+            <h1 class="dropline text-7xl font-semibold">FOR YOUR BRAND!</h1>
+            <p class="dropline text-xs text-gray-400 w-80">
+              Let's bring your ideas to life, start collaborating with our
+              creative agency and turn your vision into reality.
+            </p>
+          </div>
+
+          <hr class="my-8 border-gray-600 border-[1.3px]" />
+
+          <div class="flex justify-between">
+            <div>
+              <h1 class="adrop mb-2 text-lg font-medium text-[#BCE700]">Libertans</h1>
+              <p class="adrop text-xs">35N Deaborn ST, Chicago, IL 60601, USA</p>
+              <p class="adrop text-xs">+1-202-555-0156, (555) 555-1234</p>
+              <p class="adrop text-xs">info@libertans.com</p>
+            </div>
+
+            <div class="flex flex-col gap-6 items-end">
+              <div class="flex gap-4">
+                <p class="smallDrop px-4 py-1 rounded-2xl border-gray-600 border-[1.4px]">
+                  Market research
+                </p>
+                <p class="smallDrop px-4 py-1 rounded-2xl border-gray-600 border-[1.4px]">
+                  Ads Production
+                </p>
+                <p class="smallDrop px-4 py-1 rounded-2xl border-gray-600 border-[1.4px]">
+                  Branding strategies
+                </p>
+              </div>
+              <div class="ldrop flex gap-8 text-xs text-zinc-400">
+                <p>Privacy & Cookie Policy</p>
+                <p>Libertans &copy; 2024</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- gsap cdn script -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
